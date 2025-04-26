@@ -223,7 +223,7 @@ def plot_rocket_stage_data(data):
     )
 
     plt.tight_layout()
-    plt.show()
+    st.pyplot(fig)
 
 if st.button("Run Optimizations"):
     run_optimizer("Rocket 1 (Equal Mass Ratios Across All Stages)", [
